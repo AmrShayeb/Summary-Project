@@ -1,14 +1,11 @@
-
-
-
 .container-main {
     width: 100%;
     min-height: calc(100vh - 16px);
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    /* padding: 15px; */
+    margin: 0px;
    
 }
 .container {
@@ -107,9 +104,11 @@ color: rgb(40, 25, 180);
 }
 
 .attribution { 
-    font-size: 11px; 
+    font-size: 11px;
     text-align: center;
-position: relative; }
+    margin-top: 7px;
+    margin-bottom: 0px;
+    position: relative; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 @media only screen and (max-width: 375px) { 
