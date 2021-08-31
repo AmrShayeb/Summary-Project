@@ -1,6 +1,7 @@
 body{
-margin: 0px;
-padding: 0px;
+    margin: 0px;
+    padding: 0px;
+
 }
 .container-main {
     width: 100%;
@@ -10,6 +11,7 @@ padding: 0px;
     justify-content: center;
     align-items: center;
     /* margin: 0px; */
+
 }
 .container {
     width: 390px;
@@ -21,6 +23,13 @@ padding: 0px;
     text-align: center;
     box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
     margin-top: auto;
+
+}
+.hero-image{
+    padding: 0 0 5px;
+    height: inherit;
+    position:sticky;
+
 }
 .d-order{
     font-size: xx-large;
@@ -34,17 +43,20 @@ p {
 	line-height: 20px;
 	letter-spacing: 0.5px;   
     color: #847979;
+    margin-right: 72px;
+    margin-left: 75px;
 }
 span {
 	font-size: 12px;
 
 }
 .annual-style{
-  float: left;
-  margin: 10px ; 
-  font-weight: bold; 
-  font-size: large; 
-  width: 110px;
+    float: left;
+    margin: 10px ; 
+    font-weight: bold; 
+    font-size: large; 
+    width: 110px;
+
 }
 .money {
     color:rgb(135, 134, 219);
@@ -61,13 +73,10 @@ span {
     border-radius: 10px;
     margin: 20px;
     box-sizing:content-box;
-position: static;
-
+    position: static;
     box-sizing:content-box;
 
-
 }
-
 .button-Proceed {
     font-family: Poppins-Medium;
     background-color: rgb(30, 45, 179);
@@ -92,19 +101,16 @@ position: static;
 .change{
     text-align: right!important;
     text-decoration:underline;
-
-float:right;
-padding: 20px;
-font-weight: bold;
-color: rgb(40, 25, 180);
-
+    float:right;
+    padding: 20px;
+    font-weight: bold;
+    color: rgb(40, 25, 180);
     float:right;
     padding: 20px;
     font-weight: bold;
     color: rgb(40, 25, 180);
     margin-left: 68px;
     
-
 }
 .change:hover {
     text-decoration:none;
@@ -117,7 +123,6 @@ color: rgb(40, 25, 180);
     border: hidden;
     background: scroll;
 }
-
 .Cancel:hover{
     color: rgb(22, 22, 80);
 
@@ -130,11 +135,10 @@ color: rgb(40, 25, 180);
     /* position: relative; */
     /* margin: 0px; */
 }
+.attribution a {
+     color: hsl(228, 45%, 44%); 
 
-.attribution a { color: hsl(228, 45%, 44%); }
-
-
- }
+    }
 @media only screen and (max-width: 375px) { 
   /* for mobile */
   .container-main {
