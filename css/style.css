@@ -1,4 +1,10 @@
+body{
+margin: 0px;
+padding: 0px;
+}
 .container-main {
+    /* display, position, width, height, margin, padding  */
+   
     width: 100%;
     min-height: calc(100vh - 16px);
     display: grid;
@@ -6,111 +12,136 @@
     justify-content: center;
     align-items: center;
     margin: 0px;
-   
+
 }
 .container {
     width: 390px;
     background: #fff;
     border-radius: 10px;
     overflow: hidden;
-    /*position: relative;*/
-	flex-direction: column;
-	text-align: center;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    
-}
+    /* position: relative; */
+    /* flex-direction: column; */
+    text-align: center;
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
 
-.h3{
+}
+.d-order{
     font-size: xx-large;
     color: rgb(12, 7, 1);
     font-weight: bold;
 
 }
-h1 {
-	font-weight: bold;
-	margin: 0;
-}
-
 p {
 	font-size: 14px;
 	font-weight: 100;
 	line-height: 20px;
 	letter-spacing: 0.5px;   
+    color: #847979;
 }
-
 span {
 	font-size: 12px;
-}
 
-.money{
+}
+.annual-style{
+  float: left;
+  margin: 10px ; 
+  font-weight: bold; 
+  font-size: large; 
+  width: 110px;
+}
+.money {
     color:rgb(135, 134, 219);
-    margin: 10px ;
-}
+    margin-right: 38px;
 
-a {
-	color: #333;
-	font-size: 14px;
-	text-decoration: none;
-	margin: 15px 0;
 }
-
 .text {
+    display: flex; 
+    justify-content: center; 
+    align-items:center; 
     width: 90%;
     height: 70px;
     background-color: rgb(210, 220, 233);
     border-radius: 10px;
     margin: 20px;
+<<<<<<< Updated upstream
 box-sizing:content-box;
 position: static;
+=======
+    box-sizing:content-box;
+
+>>>>>>> Stashed changes
 }
-button {
+.button-Proceed {
     font-family: Poppins-Medium;
     background-color: rgb(30, 45, 179);
     font-size: 15px;
     color: rgb(253, 253, 253);
     line-height: 1.2;
     text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
     width: 90%;
     height: 50px;
     border-radius: 10px;
-    margin: 20px;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
-button:hover{
-    background-color: rgb(97, 121, 231);
-}
+    /* margin: 20px; */
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
 
+}
+.button-Proceed:hover{
+    background-color: rgb(97, 121, 231);
+
+}
 .change{
     text-align: right!important;
     text-decoration:underline;
+<<<<<<< Updated upstream
 float:right;
 padding: 20px;
 font-weight: bold;
 color: rgb(40, 25, 180);
+=======
+    float:right;
+    padding: 20px;
+    font-weight: bold;
+    color: rgb(40, 25, 180);
+    margin-left: 68px;
+    
+>>>>>>> Stashed changes
 }
 .change:hover {
     text-decoration:none;
+
   }
-.order{
+.Cancel{
     color: rgb(135, 134, 219);
-    padding: 20px;
+    padding: 26px;
     height: 10px;
-}
-.order:hover{
-    color: rgb(22, 22, 80);
+    border: hidden;
+    background: scroll;
 }
 
+.Cancel:hover{
+    color: rgb(22, 22, 80);
+
+}
 .attribution { 
     font-size: 11px;
     text-align: center;
     margin-top: 7px;
     margin-bottom: 0px;
+<<<<<<< Updated upstream
     position: relative; }
 .attribution a { color: hsl(228, 45%, 44%); }
+=======
+    position: relative;
 
+ }
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+>>>>>>> Stashed changes
+
+ }
 @media only screen and (max-width: 375px) { 
   /* for mobile */
   .container-main {
@@ -118,9 +149,9 @@ color: rgb(40, 25, 180);
     background-repeat: no-repeat;
     background-color: #f2f2f2;
     font-size: 16px;
+
     }
   }
-
   @media only screen and (max-width: 1440px) {
 /* for disktop */
 .container-main {
